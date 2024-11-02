@@ -1,0 +1,18 @@
+*{
+ box-sizing: border-box;   
+}
+header,footer{
+border: 2px solid red;
+height: 100px;clear: both;
+
+}
+section{
+    float: left;
+    border:2px solid red;
+    height:300px;
+    width:33.3%;
+}
+/*The application of box-sizing:border;......keep all the sections accurately 
+intact without spreading beyond the border ;
+ float:left;.......real application of float and clear:both;.......not allowing the header and footer to 
+ slip inside the sections; all these are imoprtant in float application ,*/

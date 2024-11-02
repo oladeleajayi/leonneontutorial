@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    border: 2px solid black;
+    height: 100px;
+    clear: both;
+}
+
+section {
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+
+article {
+    border: 2px solid black;
+    height: 400px;
+    width: 40%;
+    float: left;
+}
+
+/*introduction of responsive website,desktop,laptop,tablet and mobile phones*/
+/* to make images responsive @media screen and (max-width:700px) {
+    section {
+        background: blue;
+        width: 100%;
+        height:auto;
+    }*/
+/* To adust font-size and margins   
+@media screen and (max-width:700px) {
+            h1 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }*/
+/*To make the blocks stack on each other*/
+@media screen and (max-width:600px) {
+    section {
+        background: green;
+        width: 100%;
+    }
+}
+
+@media (min-width:601px)and (max-width:900px) {
+    section {
+        background: blue;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    article {
+        background: yellow;
+        width: 100%;
+    }
+}
+
+@media (min-width:600px)and (max-width:900px) {
+    article {
+        width: none;
+        clear: both;
+    }
+}

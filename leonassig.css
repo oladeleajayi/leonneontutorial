@@ -1,0 +1,64 @@
+  /**{	
+    border :1px solid red;
+     padding:0;
+     margin:0; 
+  }*/
+
+  .main_container{
+               border:3px solid red;
+               height:960px;
+               
+  } 
+
+
+    h1{
+        color: rgb(15, 7, 88);
+        background-color: rgb(255, 145, 0);
+        height:50px;
+	   border:1px solid black; 
+    }
+    h2{
+        color: rgb(20, 156, 72);
+        background-color: rgb(110, 6, 41);
+        height:50px;
+	   border:1px solid black; 
+    }
+    h3{
+        color: rgb(156, 20, 72);
+        background-color: rgb(2, 106, 124);
+        height:50p;
+	   border:1px solid black; 
+    }
+     p{
+        color: red;
+       }
+       [src]{
+        height: 180px;width: 180px;
+        border:3px solid red;
+       }
+       header nav [src]{
+        height: 80px;width: 80px;
+        border: none;
+       }
+       span{
+        color: rgb(156, 20, 72);
+        height:50px;
+       }
+       .main_container header nav ul li{
+        letter-spacing: normal;
+        margin: 0px;
+        padding: left 0px; 
+       }
+       footer{
+        background-color: yellow;
+        height: 80px;
+
+       }
+       section h2 [src] {
+        height: 180px;width: 180px;
+       }
+       
+      /*#logo[src]{
+        height: 280px;
+      }*/
+      

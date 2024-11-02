@@ -1,0 +1,71 @@
+/*Box model hack*/
+* {
+    box-sizing: border-box;
+}
+
+/*clear fix hack */
+.clearfixafter {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+
+}
+
+.clear {
+    clear: both;
+}
+
+/******************
+/*LAYOUT
+/***********************/
+header,
+footer {
+    border: 2px solid black;
+    height: 100px;
+    clear: both;
+
+}
+
+section {
+    border: 2px solid black;
+    height: 200px;
+    width: 33.3333%;
+    float: left;
+}
+
+.bottom {
+    width: 50%;
+}
+
+/*introduction of responsive website,desktop,laptop,tablet and mobile phones*/
+/* to male images responsive @media screen and (max-width:700px) {
+    section {
+        background: blue;
+        width: 100%;
+        height:auto;
+    }*/
+/* To adust font-size and margins   
+@media screen and (max-width:700px) {
+            h1 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }*/
+/*To make the blocks stack on each other*/
+@media screen and (max-width:700px) {
+    section {
+        background: blue;
+        width: 100%;
+    }
+
+    .bottom {
+        width: 100%;
+    }
+}
+
+
+/************************
+ /*ADDITTIONAL STYLES
+ /*************************/
